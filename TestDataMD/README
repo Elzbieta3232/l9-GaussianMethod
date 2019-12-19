@@ -1,0 +1,27 @@
+Wyjaśnienie notacji:
+Pliki testowe znajdują się w folderach o nazwach A<typ>BxC gdzie:
+A - numer identyfikacyjny testu
+B - liczba wierszy macierzy z pliku
+C - liczba kolumn macierzy z pliku
+<typ> - informacja odnośnie tego czy dany układ równań jest oznaczony, nieoznaczony czy sprzeczny
+Program przechodzi test gdy jego wynik pokrywa się z informacjami przekazywanymi przez nazwę folderu i plik README.
+Test następuje poprzez wywołanie programu z argumentami "a" i "b" (w tej kolejności i zakładając, że pliki przekopiowane zostały do tego samego miejsca co kod źródłowy)
+
+1) Outcome vector: 1.0 1.0
+2) nieoznaczony
+3) sprzeczny
+4) Outcome vector: 2.0
+5) nieoznaczony
+6) Outcome vector: 1.0 1.0
+7) sprzeczny
+8) nieoznaczony
+9) Outcome vector: -0.75 -2.75 -2.25
+10) Outcome vector: ~4.118056 ~-3.333333 ~3.027778 1.5
+11) Outcome vector: 0.0 1.0 -2.0 1.0
+12) nieoznaczony
+13) sprzeczny
+14) Outcome vector: 4.0 3.0 5.0 -2.0
+15) nie umiem liczyć więc takiego folderu nie ma
+16) Outcome vector: -0.2 1.5 1.1
+17) Outcome vector: 1.0 1.0 1.0
+18) Układ jest oznaczony. Program nie reaguje poprawnie na taki układ równań ze względu na precyzję (tudzież jej brak) liczb zmiennoprzecinkowych (wiem, bo debugowałem)
